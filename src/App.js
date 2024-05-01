@@ -4,7 +4,29 @@ function App() {
     <div>
       <h1>Let's get Started</h1>
       <ExpenseItem></ExpenseItem>
-      <p>I am learning react</p>
+      <ExpenseItem 
+      date = {new date(2024,5,1)}
+      Location="Bangalore"
+      title = "Insurance"
+      price="10"></ExpenseItem>
+      <ExpenseItem
+        date={new Date(2023, 3, 25)}
+        location="Delhi"
+        title="Book"
+        price="20"
+      ></ExpenseItem>
+      <ExpenseItem
+        date={new Date(2023, 10, 11)}
+         location="Hyderabad"
+        title="Pen"
+        price="5"
+      ></ExpenseItem>
+      <ExpenseItem
+        date={new Date(2023, 1, 14)}
+       location="Mumbai"
+        title="Laptop"
+        price="200"
+      ></ExpenseItem>
     </div>
   );
 }
