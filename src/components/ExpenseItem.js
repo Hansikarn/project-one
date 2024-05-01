@@ -4,7 +4,7 @@ function ExpenseItem(props){
     
     return(
     <div className='expense-item'>
-        <div>{props.date.toISOstring()}</div>
+        <div>{props.date.toISOString()}</div>
         <div className='expense-item__location'>{props.location}</div>
         
         <div className='expense-item__description'>
@@ -15,3 +15,4 @@ function ExpenseItem(props){
     );
 }
 export default ExpenseItem;
+
